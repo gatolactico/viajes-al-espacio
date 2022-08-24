@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.encabezado {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/planeta.jpg) ;
+    background-size: cover;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px;
+    color: #779AAC;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 20px;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+p {
+    color: #779AAC;
+    font-family: monospace;
+    
+}
+.info {
+    width: 30%;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 15px;
+}
+.btn-quiero {
+    font-style: oblique;
+    background-color: #DEF0F7;
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 1rem;
+}
+
+i {
+    background-color: #779AAC ;
+    color: #779AAC;
+    height: 25px;
+    width: 25px;
+
+}
+
+.container-fluid {
+    background-color: #779AAC;
+    color: #779AAC;
+    align-items: stretch;
+
+    ;
+    }
+
+.navbar-brand {
+    color: #779AAC;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    
+    
+}
+
+.contact {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+@media (max-width: 1300px) {
+    .btn-quiero {
+        font-size: 0.8rem;
+    }
+}
+
